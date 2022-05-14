@@ -61,23 +61,13 @@
     border-radius: 20px;
 }
 
-/* #output .text2 {
-    padding-left: 100px;
-}
-
-#output .text1 {
-    padding-left: 70px;
-} */
 
 #last {
     padding-top: 1rem;
 }
-/* @media (max-width:900px) {
-    #output .text2 {
-        padding-left: 3rem;
+
+@media (max-width: 575px) {
+    #col2 img {
+        display: none;
     }
-    
-    #output .text1 {
-        padding-left: 2rem;
-    }
-} */
+}
