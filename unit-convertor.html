@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="/assets/css/unit-convertor.css"/>
+</head>
+<body>
+    <section class="" id="section1">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 p-5" id="col1">
+                <h1><b>UNIT CONVERTOR</b></h1>
+                <p>Select the system you want to Convert <span id="text1"><b> From </b></span> to <span id="text1"><b>To</b></span></p>
+
+                <div class="form-check px-5">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Metric System to Imerial System
+                    </label>
+               </div>
+                <div class="form-check px-5 pt-3">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Imperial System to Metric System
+                    </label>
+                </div>
+
+                <div class="row pt-5" id="tool">  
+                    <div class="col col1">
+                        <div class="input-group mb-3 d-inline">
+                             <select class="form-select" id="inputGroupSelect01" style="padding: 10;">
+                                 <option  class="p-5 text-muted option" selected>Select the unit</option>
+                                 <option value="1">One</option>
+                                 <option value="2">Two</option>
+                                 <option value="3">Three</option>
+                             </select>
+                        </div>
+                        <div class="py-4">
+                             <input class="" type="text" placeholder="80" id="placeholder">
+                        </div>
+                        <div class="py-4">
+                            
+                        </div>
+                         
+                    </div>
+                 
+                     <!-- <div class="col">
+                         <div class="d-inline"><i class="fa-solid fa-angles-right"></i></div>
+                     </div> -->
+        
+                     <div class="col col2">
+                         <div class="input-group mb-3 d-inline ">
+                             <select class="form-select " id="inputGroupSelect01" style="padding: 10;">
+                                 <option  class="p-5 text-muted option" selected>Select the unit</option>
+                                 <option value="1">One</option>
+                                 <option value="2">Two</option>
+                                 <option value="3">Three</option>
+                             </select>
+                         </div>
+                         <div class="py-4">
+                             <input class="" type="text" placeholder="130" id="placeholder">
+                         </div>
+                         
+        
+                         <div class="d-flex justify-content-between row" >
+
+                             <div class="col-lg-6 col-md-6 col-sm-6">
+                                <p class="d-inline">Significant Digits:</p>
+                             </div>
+
+                             <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="input-group d-inline">
+                                    <select class="form-select" id="inputGroupSelect02" style="padding: 10;">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                             
+                         </div>
+                     </div>
+                 </div>
+        
+                 <div class="row pb-5" id="tool2">  
+                     <div class="col-sm-12 col-md-6 col-lg-6 col1">
+                         
+                     </div>
+                 </div>
+        
+        
+                
+                 
+                 <div class="row d-flex justify-content-between" >
+                    <div class="col-lg-4 col-md-4 col-sm-6  px -5" id="last">
+                        <div class="form-check box">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Close on Replace
+                            </label>
+                       </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6" id="last">
+                        <div class="d-inline box"><button type="button" class="btn replace px-5">Replace</button></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6" id="last">
+                        <div class="d-inline box"><button type="button" class="btn btn-outline-dark px-5">Close</button></div>
+                    </div>
+                </div> 
+        
+                
+               
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4" id="col2">
+                <img class="img-fluid .d-sm-none .d-md-block" src="./assets/img/UNIT CONVERTOR.png">
+                <div class="mx-auto" id="output">
+                    <h1 class="py-5 mx-auto text-center text1 "><b>OUTCOME</b></h1>
+                    <h1 class="py-5 mx-auto text-center text2"><b>28,000</b></h1>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
